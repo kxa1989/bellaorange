@@ -1,0 +1,367 @@
+@import 'fonts.css';
+
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.header__nav-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #252B42;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 94px;
+    transition: 0.5s;
+}
+
+.header__nav-link:hover {
+    color: #FA4A0C;
+}
+
+.header__text {
+    background: url(../img/header-fon.jpg) no-repeat center center / cover;
+    padding: 73px 0 146px;
+}
+
+.header__text-h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F7F7F7;
+}
+
+.header__text-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.header__text-h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: #F7F7F7;
+    margin: 50px 0 64px;
+}
+
+.header__text-button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 16px 58px;
+    transition: 0.5s;
+    margin: 17px;
+}
+
+.header__text-button:hover {
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border: 1px solid #FA4A0C;
+    color: #F7F7F7;
+}
+
+/* header end */
+/* ********************** */
+/*  section__phone start */
+
+.section__phone {
+    height: 475px;
+    position: relative;
+}
+
+.section__phone-img {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    width: 100%;
+}
+
+
+/*********************************************************************************section__line******************************************************************************** */
+.section__line {
+    height: 3px;
+    width: 50%;
+    background: #E4E4E4;
+    margin: auto;
+    margin-top: 5%;
+}
+
+/*********************************************************************************section_instr********************************************************************** */
+.section__instr-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    color: #000000;
+    margin-top: 5%;
+}
+
+.section__instr-row-txt-p1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FA4A0C;
+}
+
+.section__instr-row-txt-h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+}
+
+.section__instr-row-txt-p2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #737373;
+    max-width: 80%;
+}
+
+.section__instr-row-txt1,
+.section__instr-row-txt2,
+.section__instr-row-txt3 {
+    padding-top: 20%;
+}
+
+.section__instr-row-img-1 {
+    width: 100%;
+}
+
+/*******************************************section-download***************************/
+.section__download {
+    background: url(../img/footer-fon.jpg) no-repeat center center/cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.section__download-container-h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section__download-container-h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+.section__download-container-button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 16px 58px;
+    transition: 0.5s;
+    margin: 17px;
+}
+
+.section__download-container-button:hover {
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border: 1px solid #FA4A0C;
+    color: #F7F7F7;
+}
+
+/*********************************************footer*************************************/
+.footer__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__p {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.footer__icon-a1 {
+    color: #FA4A0C;
+    font-size: 33px;
+    margin-right: 32px;
+}
+
+.footer__p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #5C5C5C;
+    text-align: end;
+}
+
+/*************************************media************************************************** */
+@media(max-width:991px) {
+    .section__instr-row-txt1 {
+        order: -1;
+    }
+
+    .section__instr-row-img3 {
+        order: 1;
+    }
+
+    .section__instr-row-txt1,
+    .section__instr-row-txt2,
+    .section__instr-row-txt3 {
+        text-align: center;
+    }
+
+    .section__instr-row-txt-p2 {
+        margin: auto;
+    }
+
+    .footer__icon {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .footer__p {
+        justify-content: center;
+    }
+
+    .footer__logo {
+        justify-content: center;
+        display: flex;
+    }
+}
+
+@media (max-width: 650px) {
+    .header__text-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .header__text-h3 {
+        font-size: 20px;
+    }
+
+    .header__text-h4 {
+        font-size: 13px;
+        line-height: 0px;
+        margin: 34px 0;
+    }
+
+    .section__phone-img {
+        width: 100%;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .section__download-container-button {
+        padding: 18px 31px;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .header__text {
+        background: none;
+        padding: 50px 0 22px;
+    }
+
+    .header__text-h3 {
+        font-size: 16px;
+        line-height: 24px;
+        color: #737373;
+    }
+
+    .header__text-title {
+        font-size: 36px;
+        color: #252B42;
+    }
+
+    .header__text-h4 {
+        font-size: 24px;
+        line-height: 38px;
+        color: #737373;
+    }
+
+    .header__text-button {
+        border: 1px solid #FA4A0C;
+        color: #FA4A0C;
+    }
+
+    .section__instr-title {
+        font-size: 24px;
+
+    }
+
+    .section__instr-row-txt1,
+    .section__instr-row-txt2,
+    .section__instr-row-txt3 {
+        text-align: center;
+    }
+
+    .section__instr-row-txt-p2 {
+        margin: auto;
+    }
+
+    .section__download {
+        background: #252B42;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .section__download-container-button {
+        padding: 18px 31px;
+    }
+
+    .footer__logo1 {
+        display: none;
+    }
+
+
+    .footer__icon {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer__p {
+        justify-content: center;
+    }
+}
